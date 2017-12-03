@@ -1,0 +1,42 @@
+.s-main-banner {
+  height: 950px;
+  padding-top: 100px;
+  background: url("../img/main_banner.jpg") no-repeat center center;
+  background-size: cover; }
+  .s-main-banner__inner {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+       -moz-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .s-main-banner__left {
+    width: 50%; }
+  .s-main-banner__right {
+    max-width: 50%;
+    height: 100%; }
+  .s-main-banner__head {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300; }
+  .s-main-banner__title {
+    max-width: 450px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.7; }
+  .s-main-banner__iphone {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    bottom: -200px; }
